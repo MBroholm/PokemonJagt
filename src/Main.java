@@ -10,6 +10,8 @@ public class Main {
 
         City city = new City();
         city.addPokemon(new Pokemon("Jigglypuff", "Normal", 22));
+        city.addPokemon(new Pokemon("Lugia", "Psychic",100));
+        city.addPokemon(new Pokemon("Psyduck", "Psychic",10));
 
 
         // Vis alle Pokémoner i skoven og byen
