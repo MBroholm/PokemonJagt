@@ -3,6 +3,10 @@ import java.util.ArrayList;
 public class Forest {
     private ArrayList<Pokemon> pokemonList = new ArrayList<>();
 
+    public ArrayList<Pokemon> getPokemonList(){
+        return pokemonList;
+    }
+
     public void addPokemon(Pokemon pokemon) {
         pokemonList.add(pokemon);
     }
